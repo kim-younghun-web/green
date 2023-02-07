@@ -1,0 +1,147 @@
+.bubble{
+    position: absolute;
+    top:0;
+    left:0;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+    overflow:hidden;
+}
+.bubble span{
+    display: block;
+    position: absolute;
+    bottom:-100px;
+    width:40px;
+    height: 40px;
+    background: rgb(64, 142, 191,1);
+    border-radius: 50%;
+    animation: bubble 15s ease-in-out infinite;
+}
+.bubble span:nth-child(1){
+    width:40px;
+    height: 40px;
+    left:0%;
+    animation-duration: 15s;
+}
+.bubble span:nth-child(2){
+    width:20px;
+    height: 20px;
+    left:10%;
+    animation-duration: 15s;
+    animation-delay:1s;
+}
+.bubble span:nth-child(3){
+    width:50px;
+    height: 50px;
+    left:20%;
+    animation-duration: 17s;
+    animation-delay:2s;
+}
+.bubble span:nth-child(4){
+    width:80px;
+    height: 80px;
+    left:40%;
+    animation-duration: 14s;
+    animation-delay:0s;
+}
+.bubble span:nth-child(5){
+    width:35px;
+    height: 35px;
+    left:50%;
+    animation-duration: 13s;
+    animation-delay:1s;
+}
+.bubble span:nth-child(6){
+    width:45px;
+    height: 45px;
+    left:60%;
+    animation-duration: 15s;
+    animation-delay:3s;
+}
+.bubble span:nth-child(7){
+    width:25px;
+    height: 25px;
+    left:70%;
+    animation-duration: 14s;
+    animation-delay:2s;
+}
+.bubble span:nth-child(8){
+    width:40px;
+    height: 40px;
+    left:0%;
+    animation-duration: 13s;
+    animation-delay:1s;
+}
+
+.bubble span:nth-child(9){
+    width:25px;
+    height: 25px;
+    left:70%;
+    animation-duration: 13s;
+    animation-delay:4s;
+}
+
+.bubble span:nth-child(10){
+    width:45px;
+    height: 45px;
+    left:60%;
+    animation-duration: 13s;
+    animation-delay:5s;
+}
+
+.bubble span:nth-child(11){
+    width:80px;
+    height: 80px;
+    left:40%;
+    animation-duration: 13s;
+    animation-delay:6s;
+}
+
+.bubble span:nth-child(12){
+    width:35px;
+    height: 35px;
+    left:50%;
+    animation-duration: 13s;
+    animation-delay:5s;
+}
+
+.bubble span:nth-child(13){
+    width:40px;
+    height: 40px;
+    left:80%;
+    animation-duration: 13s;
+    animation-delay:4s;
+}
+
+.bubble span:nth-child(14){
+    width:55px;
+    height: 55px;
+    left:60%;
+    animation-duration: 13s;
+    animation-delay:6s;
+}
+
+.bubble span:nth-child(15){
+    width:77px;
+    height: 77px;
+    left:30%;
+    animation-duration: 13s;
+    animation-delay:5s;
+}
+    
+@keyframes bubble{
+    0%{
+        bottom:-100px;
+        transform: translateX(0);
+    }
+    35%{
+        transform: translateX(100px);
+    }
+    70%{
+        transform: translateX(200px); 
+    }
+    100%{
+        bottom:110%;
+        transform: translateX(0);
+    }
+}

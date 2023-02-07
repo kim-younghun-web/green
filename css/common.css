@@ -1,0 +1,56 @@
+* { margin:0; padding:0; }
+
+/* 목록 불릿 없애기 */
+ul{ list-style:none; }
+
+/* 하이퍼링크 설정 */
+a{ text-decoration:none; color:#000; }
+
+
+body { 
+	font-family:"나눔고딕"; 
+	font-size:16px; 
+	line-height:26px; 
+	color:#000; 
+}
+#board { 
+	width: 1320px; 
+	margin: 50px 0 0 300px; 
+	border-top: 3px solid #000;
+}
+#board li{ 
+	width:100%; 
+}
+#board li a{ 
+	font-size: 26px;
+	font-weight: 900;
+	font-family: 'Pretendard-Regular';
+	display:block; 
+	padding: 40px 40px;  
+	background: url(../sub1.images/down.png) no-repeat 95% 50%;
+	border-bottom: 3px solid #000;
+}
+#board li:hover a{  
+	font-weight:bold; 
+	background-color: #eee;
+}
+#board li.on a{
+	font-weight:bold; 
+	background-color: #eee;
+	background: #eee url(../images/icon2.png) no-repeat 95% 50%;
+}
+#board li:last-child a{
+	border-top:0;
+}
+#board li div{ 
+	width:100%; 
+	border:1px solid #ccc; 
+	border-top:0;
+	padding: 30px 30px; 
+	box-sizing:border-box; 
+	height:230px;
+	display:none;
+	font-size: 18px;
+	font-family: 'Pretendard-Regular';
+}
+
