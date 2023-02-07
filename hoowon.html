@@ -1,0 +1,374 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=1400"><!--다른 매체에서도 너비 오류 없이 볼 수 있게-->
+  <link href="./images/logo3..png" rel="icon" type="image/png" sizes="32x32"><!--파비콘-->
+
+  <link rel="stylesheet" href="./css/font.css">
+  <!-- 내 css -->
+  <link rel="stylesheet" href="./css/hoowon.css">
+
+  <title>우리가 GREEN 후원하기</title>
+
+</head>
+
+<body>
+  <!-- 메뉴시작 -->
+  <div id="menu">
+    <ul>
+      <li><a href="#">우리 STORY</a>
+        <div class="sub">
+          <ul>
+            <li><a href="#"><span>기관 소개<em></em></span></a></li>
+            <li><a href="#"><span>로고 설명<em></em></span></a></li>
+            <li><a href="#"><span>조직도<em></em></span></a></li>
+            <li><a href="#"><span>오시는길<em></em></span></a></li>
+          </ul>
+          <i></i>
+          <i></i>
+          <i></i>
+          <i></i>
+        </div>
+      </li>
+
+      <li><a href="#">우리 활동</a>
+        <div class="sub">
+          <ul>
+            <li><a href="#"><span>기후변화<em></em></span></a></li>
+            <li><a href="#"><span>해양<em></em></span></a></li>
+            <li><a href="#"><span>야생동물<em></em></span></a></li>
+          </ul>
+          <i></i>
+          <i></i>
+          <i></i>
+          <i></i>
+        </div>
+      </li>
+
+      <li><a href="index.html"><img src="./images/logo1.png" alt="로고"></a></li>
+
+      <li><a href="#">우리와 함께</a>
+        <div class="sub">
+          <ul>
+            <li><a href="#"><span>위드어스<em></em></span></a></li>
+            <li><a href="#"><span>생활실천<em></em></span></a></li>
+            <li><a href="#"><span>자원봉사 신청<em></em></span></a></li>
+            <li><a href="#"><span>이벤트<em></em></span></a></li>
+          </ul>
+          <i></i>
+          <i></i>
+          <i></i>
+          <i></i>
+        </div>
+      </li>
+
+      <li><a href="#">우리 후원</a>
+        <div class="sub">
+          <ul>
+            <li><a href="sub1.html"><span>정기후원<em></em></span></a></li>
+            <li><a href="#"><span>일시후원<em></em></span></a></li>
+            <li><a href="#"><span>기업후원<em></em></span></a></li>
+            <li><a href="#"><span>캠페인 후원<em></em></span></a></li>
+          </ul>
+          <i></i>
+          <i></i>
+          <i></i>
+          <i></i>
+        </div>
+      </li>
+
+
+      <li class="fix"><a href="#">후원하기</a></li>
+    </ul>
+  </div>
+  <!-- 메뉴 끝 -->
+
+
+
+  <div class="hw">
+    <h1>후원하기</h1>
+  </div>
+
+  <!-- 본문 -->
+  <div id="lnb">
+
+    <!-- 페이지1 -->
+    <div class="lnb_inner popup1">
+      <img src="./sub1.images/hoowon_1.png" alt="단계1">
+      <hr>
+      <form action="#" method="post" name="visit">
+        <h1>1.후원방법</h1>
+
+        <hr class="blue_line">
+
+        <h3>후원방법</h3>
+
+        <input type="button" value="정기">
+        <input type="button" value="일시">
+
+        <hr>
+
+        <h3>후원분야</h3>
+
+        <select>
+          <option value="정기후원">정기후원</option>
+          <option value="일시후원">일시후원</option>
+          <option value="캠페인후원">캠페인후원</option>
+          <option value="기업후원">기업후원</option>
+        </select>
+
+        <hr>
+
+        <h3>후원금액</h3>
+        <div class="won">
+          <input type="button" value="30,000">
+          <input type="button" value="50,000">
+          <input type="button" value="100,000">
+
+          <input type="text" placeholder="직접 금액을 입력하세요" maxlength="10">
+        </div>
+
+        <hr>
+        <h3>총 후원금액</h3>
+        <hr>
+        <a href="#">
+          <h2>다음</h2>
+        </a>
+        <hr>
+        <h5>2.후원자 정보</h5>
+        <hr>
+        <h5>3.결제 정보</h5>
+        <hr>
+      </form>
+    </div>
+
+
+    <!-- 페이지2 -->
+    <div class="lnb_inner popup2">
+      <img src="./sub1.images/hoowon_2.png" alt="단계2">
+      <hr>
+      <form action="#" method="post" name="visit">
+        <h5>1.후원방법</h5>
+
+        <hr>
+
+        <h1>후원자 정보</h1>
+
+        <hr class="blue_line">
+
+        <h3>후원자 유형</h3>
+        <input type="button" value="개인">
+        <input type="button" value="기업">
+
+        <hr>
+
+        <h3>후원자 정보</h3>
+
+        <h4>성명</h4>
+        <p><input type="text" placeholder="이름" class="name" maxlength="10"></p>
+
+        <h4>기부금 영수증</h4>
+        <p>
+          <input type="checkbox" id="time1">
+          <label for="time1"><em></em>신청</label>
+        </p>
+
+        <h4>생년월일</h4>
+        <p><input type="text" placeholder="생년월일" class="name" maxlength="8"></p>
+        <p><span>*만 14세 미만의 경우, 법정 대리인의 인증이 완료되어야 후원이 가능합니다.</span></p>
+
+        <h4>휴대폰 번호</h4>
+        <p><input type="tel" placeholder="휴대폰 번호 입력(’-’제외)" class="name" maxlength="11"></p>
+
+        <h4>이메일 입력</h4>
+        <p><input type="email" placeholder="이메일 주소 입력" class="name"></p>
+
+        <h4>정보 수신 동의(선택)</h4>
+        <p>
+          <input type="checkbox" id="time2">
+          <label for="time2"><em></em>이메일</label>
+
+          <input type="checkbox" id="time3">
+          <label for="time3"><em></em>휴대전화</label>
+
+          <input type="checkbox" id="time4">
+          <label for="time4"><em></em>우편</label>
+        </p>
+
+        <div class="text_box">
+          <p>· 공지사항 및 회원 관리 안내는 수신여부와 관계없이 발송됩니다.</p>
+          <p>· 동의 내용은 언제든지 웹사이트 및 고객센터를 통해 변경이 가능합니다.</p>
+        </div>
+
+        <hr>
+        <a href="#">
+          <h2>다음</h2>
+        </a>
+
+        <hr>
+        <h5>3.결제 정보</h5>
+        <hr>
+      </form>
+    </div>
+
+
+
+
+    <!-- 페이지 3  -->
+    <div class="lnb_inner popup3">
+      <img src="./sub1.images/hoowon_3.png" alt="단계3">
+      <hr>
+      <form action="#" method="post" name="visit">
+        <h5>1.후원방법</h5>
+
+        <hr>
+
+        <h5>2.후원자 정보</h5>
+
+        <hr>
+
+        <h1>결제 정보</h1>
+
+        <hr class="blue_line">
+
+        <h3>결제 수단</h3>
+        <input type="button" value="자동이체">
+        <input type="button" value="신용카드">
+        <input type="button" value="무통장입금">
+
+
+        <hr>
+
+        <h3>자동이체 계좌 정보</h3>
+
+        <h4>예금주명</h4>
+        <p><input type="text" placeholder="이름" class="name" maxlength="10"></p>
+
+        <h4>예금주 생년월일</h4>
+        <p><input type="text" placeholder="생년월일" class="name" maxlength="8"></p>
+
+        <h4>계좌번호</h4>
+        <select>
+          <option value="은행선택">은행선택</option>
+          <option value="카카오 뱅크">카카오 뱅크</option>
+          <option value="기업은행">기업은행</option>
+          <option value="국민은행">국민은행</option>
+          <option value="신한은행">신한은행</option>
+        </select>
+
+        <p><input type="text" placeholder="계좌번호 입력" class="name" maxlength="20"></p>
+
+        <h4>결제일</h4>
+        <p class="pay1">
+          <input type="radio" id="time12" name="pay">
+          <label for="time12"><em></em>05일</label>
+
+          <input type="radio" id="time13" name="pay">
+          <label for="time13"><em></em>10일</label>
+
+          <input type="radio" id="time14" name="pay">
+          <label for="time14"><em></em>15일</label>
+
+          <input type="radio" id="time15" name="pay">
+          <label for="time15" class="time15"><em></em>20일</label>
+
+
+        </p>
+
+        <h4>자동이체 결제동의</h4>
+        <p class="yesno1"><input type="radio" id="time16" name="yesno">
+          <label for="time16" class="yesno"><em></em>예</label>
+
+          <input type="radio" id="time17" name="yesno">
+          <label for="time17"><em></em>아니오</label>
+        </p>
+
+        <hr>
+
+        <h6>약관 및 개인정보 수집·이용 동의</h6>
+
+        <hr>
+
+        <h4 class="last"><input type="checkbox" id="time22">
+          <label for="time22"><em></em>모두 동의합니다.</label>
+        </h4>
+
+        <hr>
+
+        <h4 class="last"><input type="checkbox" id="time22">
+          <label for="time22"><em></em>[필수] 후원 약관 동의</label>
+        </h4>
+
+        <h4 class="last"><input type="checkbox" id="time22">
+          <label for="time22"><em></em>[필수] 개인정보 수집·이용 동의</label>
+        </h4>
+
+        <hr>
+        <a href="#">
+          <h2>매월 30,000원 후원하기</h2>
+        </a>
+
+      </form>
+    </div>
+
+    <!-- 페이지4 -->
+
+    <div class="pic">
+      <h3><span class="bl">우리가</span> <span class="gr">그린</span> <img src="./sub1.images/hw_logo.png" alt="로고사진"></h3>
+      <h4>
+        <strong>세상을 위한 좋은 변화! </strong> <br>
+        후원해주셔서 감사합니다 <br>
+      <br>
+        후원자님과 함께 만들어 나갈 <br>
+        더 나은 세상 기대해주세요!
+      </h4>
+      <h5>-우리가 그린 올림-</h5>
+      <a href="#">
+        <p>홈으로 가기</p>
+      </a>
+    </div>
+
+  </div>
+
+
+  <!-- 풋터 -->
+  <div class="footer">
+    <div class="footer_inner">
+      <a href="index.html" class="logo"><img src="./images/logo2.png" alt="푸터로고"></a>
+
+      <div>
+        <ul>
+          <li><a href="#">이용약관</a></li>
+          <li>｜</li>
+          <li><a href="#">개인정보처리방침</a></li>
+          <li>｜</li>
+          <li><a href="#">오시는 길</a></li>
+          <li><a href="#"><span>후원문의 010-5048-2087</span></a></li>
+        </ul>
+        <p>
+          우리가그린 대표자: 김영훈 고유번호: 102-43-65056
+          주소: [47874] 부산광역시 동래구 사직로 45 <br>
+          COPYRIGHT @ THE KOREAN COMMITTEE FOR wegreen. ALL RIGHT RESERVED
+        </p>
+      </div>
+
+      <ul class="sns">
+        <li><a href="#none"><img src="./images/icon1_fackbook.png" alt="페북"></a></li>
+        <li><a href="#none"><img src="./images/icon2_insta.png" alt="인스타"></a></li>
+        <li><a href="#none"><img src="./images/icon3_youtube.png" alt="유튭"></a></li>
+      </ul>
+
+
+    </div>
+  </div>
+
+  <script src="https://code.jquery.com/jquery-2.2.0.min.js"></script><!-- 제이쿼리 라이브러리, 수정X -->
+  <script src="./script/sub1.js"></script>
+  <script src="script/tab.js"></script> <!-- 팝업js 같이있음-->
+
+</body>
+
+</html>
