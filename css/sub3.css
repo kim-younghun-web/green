@@ -545,13 +545,13 @@ body {
     display: block;
 }
 
-.text_box{
+.text_box {
     background-color: #d3e3ec;
     display: inline-block;
     padding: 30px 118px 30px 118px;
     border-radius: 30px 30px 30px 30px;
-    margin-top: -120px;
-    
+    position: relative;
+    top: -120px;
 }
 .text_box h2{
     font-size: 25px;

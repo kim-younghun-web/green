@@ -226,6 +226,7 @@ body {
 	background-image: url(../images/1bg_psd.jpg);
 	background-repeat: no-repeat;
 	background-size: cover;
+	background-position: center;
 	text-align: center;
 }
 
@@ -240,6 +241,7 @@ body {
 #section2 h1 {
 	font-family: 'Tenada';
 	font-size: 50px;
+	margin-top: 92px;
 	color: white;
 }
 
@@ -562,6 +564,7 @@ body {
 	background-image: url(../images/footer.bg.jpg);
 	background-repeat: no-repeat;
 	background-size: cover;
+	min-height: 937px;
 }
 
 .text {
@@ -575,11 +578,11 @@ body {
 	font-size: 30px;
 	font-family: 'BCcardB';
 	color: #292727;
-	margin-top: 270px;
+	margin-top: 28vh;
 }
 
 .text h1 {
-	margin-top: 80px;
+	margin-top: 25vh;
 }
 
 .fp-viewing-5 .blue {
@@ -593,7 +596,7 @@ body {
 }
 
 .text2 {
-	padding-top: 80px;
+	padding-top: 8vh;
 }
 
 .blue {
@@ -619,11 +622,11 @@ body {
 .text h3 {
 	font-size: 25px;
 	font-family: 'BCcardB';
-	margin-top: 170px;
+	margin-top: 15vh;
 }
 
 .text a img {
-	margin-top: 30px;
+	margin-top: 3vh;
 }
 
 .text a:nth-child(5) {
@@ -640,8 +643,10 @@ body {
 }
 
 /* section5 */
-.slide img{
-	width: 100%;
+.slide img {
+    height: 100%;
+    display: block ;	
+    margin: auto ;
 }
 
 
@@ -650,9 +655,7 @@ body {
 /* 푸터 */
 .footer {
 	border-top: 4px solid white;
-	margin-top: 100px;
 	background-color: rgba(0, 0, 0, 0.1);
-	padding-top: 15px;
 }
 
 .footer_inner {
