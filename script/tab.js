@@ -83,3 +83,20 @@ $(function(){
         $('.popup').fadeOut();//hide();
     });
 }); 
+
+
+// 모두선택
+$(document).ready(function() {
+	$("#time22").click(function() {
+		if($("#time22").is(":checked")) $("input[name=chk]").prop("checked", true);
+		else $("input[name=chk]").prop("checked", false);
+	});
+
+	$("input[name=chk]").click(function() {
+		var total = $("input[name=chk]").length;
+		var checked = $("input[name=chk]:checked").length;
+
+		if(total != checked) $("#time22").prop("checked", false);
+		else $("#time22").prop("checked", true); 
+	});
+});
