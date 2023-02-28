@@ -223,11 +223,13 @@ body {
 
 /* section1 */
 #section1 {
-	background-image: url(../images/1bg_psd.jpg);
 	background-repeat: no-repeat;
 	background-size: cover;
 	background-position: center;
 	text-align: center;
+}
+#section1 video{
+	width: 100%;
 }
 
 
